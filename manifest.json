@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 2,
+    "name":"Hydrate!",
+    "description":"quick launch traversy media",
+    "version":"1.0.0",
+    "browser_action":{
+        "default_icon":"water.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab","storage"]
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Water Tracker</title>
+        <meta name ="viewport" content="width=device-width,initial-scale=1">
+        <link
+            href="styles.css"
+            type="text/css"
+            rel="stylesheet"
+        />
+        <div class="header">
+            <h1>Hydrate!</h1>
+        </div>
+    </head>
+
+    <body>
+        <div class = "text">
+            <p1>I still need...</p1>
+            <p type="number" id="remaining">75 oz</p>
+            <p1>I just drank...</p1>
+        </div>
+        
+        <div class="btn-group">
+            <button id="5">5 oz</button>
+            <button id="10">10 oz</button> 
+            <button id="15">15 oz</button> 
+            <button id="20">20 oz</button>
+            <button id="25">25 oz</button>
+        </div>
+        <form class="form">
+            <label for="refill">Refill To:</label>
+            <input type="number" id="refill" name="refill" value=75><br>
+        </form>
+        <script src="popup.js"></script>
+        <div class=button1>
+            <button type="submit" id="go">Go!</button>
+        </div>
+    </body>
+
+    <style>
+        .header h1{
+            padding:2px;
+            width: 400px;
+            text-align: center;
+            background:#6D9DC5;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+        }
+    
+        .text p1{
+            color: rgb(22, 66, 124);   
+        }
+
+        .button1 button{
+            background-color: #B3DEE2; /* Green */
+            border: 1px solid black;
+            color: white;
+            padding: 6px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px; 
+             
+        }
+
+        .button1 button:hover{
+            background-color: #A1C9CD;
+        }
+    
+        .btn-group button {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #B3DEE2; /* Green background */
+            border: 1px solid black; /* Green border */
+            color: white; /* White text */
+            padding: 10px 24px; /* Some padding */
+            cursor: pointer; /* Pointer/hand icon */
+            float: left; /* Float the buttons side by side */
+        }
+    
+        .btn-group:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    
+        .btn-group button:not(:last-child) {
+            border-right: none; /* Prevent double borders */
+        }
+    
+        .btn-group button:hover {
+            background-color: #A1C9CD;
+        }
+    
+        .text p1{
+            font-size:medium;
+        }
+    
+        .text p{
+            font-size: large;
+            font-weight:bold;
+        }
+    
+        .form{
+            font-size: medium;
+        }
+
+        .button button{
+            background-color: #A1C9CD;        
+        }
+    </style>
+</html>
