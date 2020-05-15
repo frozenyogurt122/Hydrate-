@@ -2,7 +2,7 @@
     padding:2px;
     width: 400px;
     text-align: center;
-    background:#5497A7;
+    background:#6D9DC5;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
@@ -10,6 +10,22 @@
 
 .text p1{
     color: rgb(22, 66, 124);   
+}
+
+.button1 button{
+    background-color: #B3DEE2; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+     
+}
+
+.button1 button:hover{
+    background-color: #A1C9CD;
 }
 
 .btn-group button {
@@ -48,4 +64,8 @@
 
 .form{
     font-size: medium;
+}
+
+.button button{
+    background-color: #A1C9CD;        
 }
